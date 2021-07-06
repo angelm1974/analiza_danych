@@ -21,4 +21,4 @@ osoba2 = {
 lista = [osoba, osoba1, osoba2]
 
 for obywatel in lista:
-    print(f'dane osoby: {obywatel["nazwisko"]}')
+    print(f'dane osoby: {obywatel.get("nazwisko","Brak nazwiska")}')
