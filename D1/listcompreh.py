@@ -1,4 +1,5 @@
 from random import choice
+
 liczby = []
 for liczba in range(20):
     if liczba % 2 == 0:
