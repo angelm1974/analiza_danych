@@ -12,3 +12,7 @@ oDictWriter = csv.DictWriter(wyjscie, ['id', 'miasto', 'słońce', 'opady'])
 oDictWriter.writeheader()
 for row in przykladowy_reader:
     oDictWriter.writerow(row)
+
+
+biuro@iie.edu.pl
+mariusz980@gmail.com
